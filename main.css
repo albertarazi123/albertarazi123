@@ -1,6 +1,7 @@
 document.body.style.backgroundColor = "navy";
- text-align: center;
 {
 ul li{
   display: inline;
+   text-align: center;
+
 }
