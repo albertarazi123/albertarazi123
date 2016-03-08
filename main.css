@@ -1,15 +1,6 @@
-.document {
- 
-   padding:
+document.body.style.backgroundColor = "navy";
 
-   background: blue;
-
-  
-
- 
-
-}
-
+{
 ul li{
   display: inline;
 }
