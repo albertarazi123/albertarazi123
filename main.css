@@ -4,3 +4,7 @@ li {
 body {
     background-color: lightblue;
 }
+
+p.thick {
+    font-weight: bold;
+}
