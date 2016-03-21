@@ -11,10 +11,8 @@ p.thick {
 <div style='position:absolute;z-index:0;left:0;top:0;width:100%;height:100%'>
   <img src='whatever.jpg' style='width:100%;height:100%' alt='[]' />
 </div>
-html { 
-  background: url(images/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+div {
+    background: url(img_flwr.gif);
+    background-size: 80px 60px;
+    background-repeat: no-repeat;
 }
