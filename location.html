@@ -8,48 +8,7 @@
 
 <title></title>
 	</head>
-	 <meta charset="utf-8">
-  <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
-  <title>Locate Button</title>
-  <link rel="stylesheet" href="https://js.arcgis.com/3.16/esri/css/esri.css">
-  <style>
-    html, body, #map {
-      padding:0;
-      margin:0;
-      height:100%;
-    }
-    #LocateButton {
-      position: absolute;
-      top: 95px;
-      left: 20px;
-      z-index: 50;
-    }
-  </style>
-  <script src="//js.arcgis.com/3.16/"></script>
-  <script>
-    var map; 
 
-    require([
-      "esri/map", 
-      "esri/dijit/LocateButton",
-      "dojo/domReady!"
-    ], function(
-      Map, LocateButton
-    )  {
-
-      map = new Map("map", {
-        center: [-56.049, 38.485],
-        zoom: 3,
-        basemap: "streets"
-      });
-            
-      geoLocate = new LocateButton({
-        map: map
-      }, "LocateButton");
-      geoLocate.startup();
-
-    });
-  </script>
 </head>
 <body>
   <div id="map" class="map">
@@ -74,13 +33,7 @@
 
     </div>
 <p>shop</p>
-var geoLocate = new LocateButton({
-  map: map,
-  highlightLocation: false
-  }, "LocateButton"
-);
-geoLocate.startup();
-		
-		
+
+		<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://www.autohuren.world/">auto huren</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(40.6704628,-73.9947525),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.6704628,-73.9947525)});infowindow = new google.maps.InfoWindow({content:'<strong>tigerlinen</strong><br>155 second avenue brooklyn ny <br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 	</body>
 </html>
